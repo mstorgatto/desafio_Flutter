@@ -101,6 +101,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Text(
               '$_counter1',
               style: Theme.of(context).textTheme.headline4,
+              key: Key ('counter1'),
             ),
             Text(
               'You have pushed the button 2 this many times:',
@@ -108,6 +109,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Text(
               '$_counter2',
               style: Theme.of(context).textTheme.headline4,
+              key: Key ('counter2'),
             ),
           ],
         ),

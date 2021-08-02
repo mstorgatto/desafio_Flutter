@@ -81,7 +81,8 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'My Maximum Bid: $_counter'
+              'My Maximum Bid: $_counter',
+              key: Key('counter'),
             ),
             Row(
                 mainAxisAlignment: MainAxisAlignment.center,
